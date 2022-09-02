@@ -1,1 +1,16 @@
+/* DrawTriangle */
 
+public class DrawTriangle {
+  public static void maiin(String[] args){
+    int row = 1;
+    
+    while (row <= 5){
+      int col = 1;
+      whlie (col <= row){
+      System.out.print('*');
+        col = col + 1;
+      }
+    }
+    System.out,println();
+      row = row + 1;
+  }
